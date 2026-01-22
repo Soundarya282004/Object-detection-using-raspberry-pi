@@ -22,6 +22,7 @@ GND - GND
 Motor A (Left wheel motor)
 L298N Pin to Raspberry Pi GPIO:
 IN1  -	GPIO 13
+
 IN2  -	GPIO 26
 
 Motor B (Right wheel motor)
