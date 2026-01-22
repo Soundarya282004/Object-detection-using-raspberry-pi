@@ -58,26 +58,28 @@ Ultrasonic GND
 👉 How to Run This Code on Raspberry Pi
 
 Step 1: Enable Camera & SPI
->> sudo raspi-config
+
+           sudo raspi-config
 
 To Enable: Camera
-
            SPI
-           
            Reboot
 
 Step 2: Install Required Libraries
->> sudo apt update
->> sudo apt install python3-opencv
->> sudo pip3 install RPi.GPIO numpy
+           
+           sudo apt update
+           sudo apt install python3-opencv
+           sudo pip3 install RPi.GPIO numpy
 
 Step 3: Save the File
->> nano robot.py
+            
+           nano robot.py
 
 Paste your code → Ctrl+O → Enter → Ctrl+X
 
 Step 4: Run the Program
->> sudo python3 robot.py
+           
+           sudo python3 robot.py
 
 ⚠ sudo is required for GPIO access.
 
