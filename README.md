@@ -12,27 +12,39 @@ Object detection using ultrasonic and auto control the motor(wheels) with camera
 8. Jumper wires
 
 🔹Ultrasonic to Raspberry:
+
 Trig - 21 pin of Rasp (Or any GPIO PIN)
+
 Echo - 20 pin of Rasp (Or any GPIO PIN)
+
 VCC - 5V
+
 GND - GND
 
 🔹L298N Motor Driver Connections:
 
 Motor A (Left wheel motor)
+
 L298N Pin to Raspberry Pi GPIO:
+
 IN1  -	GPIO 13
 
 IN2  -	GPIO 26
 
 Motor B (Right wheel motor)
+
 L298N Pin	Raspberry Pi GPIO:
+
 IN3 -	GPIO 6
+
 IN4 -	GPIO 19
 
 🔹Camera Rotation Motor (Top Motor)
+
 Motor Driver Pin to	Raspberry Pi GPIO:
+
 IMCA2 -	GPIO 17
+
 IMCB2 -	GPIO 27
 
 🔹 Common Ground (VERY IMPORTANT)
