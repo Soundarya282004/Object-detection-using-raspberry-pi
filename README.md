@@ -48,15 +48,22 @@ IMCA2 -	GPIO 17
 IMCB2 -	GPIO 27
 
 🔹 Common Ground (VERY IMPORTANT)
+
 Raspberry Pi GND
+
 L298N GND
+
 Ultrasonic GND
 
 👉 How to Run This Code on Raspberry Pi
+
 Step 1: Enable Camera & SPI
 >> sudo raspi-config
+
 To Enable: Camera
+
            SPI
+           
            Reboot
 
 Step 2: Install Required Libraries
@@ -66,10 +73,12 @@ Step 2: Install Required Libraries
 
 Step 3: Save the File
 >> nano robot.py
+
 Paste your code → Ctrl+O → Enter → Ctrl+X
 
 Step 4: Run the Program
 >> sudo python3 robot.py
+
 ⚠ sudo is required for GPIO access.
 
 👉 How to Stop the Program
